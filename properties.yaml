@@ -1,0 +1,27 @@
+slack          : https://setu-hdip-comp-sci-24.slack.com
+moodle         : https://moodle.wit.ie/course/view.php?id=202930
+parent         : course/wit-hdip-comp-sci-2024
+youtube        : https://www.youtube.com/playlist?list=PLEuhMaR29LyAs5MECbimbdRaRPC4ympdW
+credits        : John Rellis
+icon: 
+  type: ri:file-code-fill
+  color: 603980
+auth           : 1
+whitelist      : 1
+labStepsAutoNumber: true
+ignore :
+  - topic--hidden
+# - topic---assignments
+# - topic-00-overview
+#  - topic-01-introducing-html
+# - topic-02-introducing-css
+#  - topic-03-box-model
+#  - topic-04-navigation
+#  - topic-05-templating
+#  - topic-06-semantic-code
+#  - topic-07-bulma-js
+#  - topic-08-javascript
+#  - topic-09-js-arrays-script-tags
+  # - topic-10-functions-data-ui
+  # - topic-11-in-progress
+  # - topic-12-localstorage

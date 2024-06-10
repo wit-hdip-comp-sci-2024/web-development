@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Data</title>
+    <script src="lab_weather_data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script>
+        console.log(dayjs().format('YYYY-MM-DDTHH:mm:ss'));
+
+        console.log(dayjs().add(1, 'day').format('YYYY-MM-DDTHH:mm:ss'));
+        console.log(dayjs().add(1, 'week').format('YYYY-MM-DDTHH:mm:ss'));
+        console.log(dayjs().add(1, 'month').format('YYYY-MM-DDTHH:mm:ss'));
+        console.log(dayjs().add(1, 'year').format('YYYY-MM-DDTHH:mm:ss'));
+
+        console.log(dayjs().format('dddd'));
+
+        console.log(dayjs().add(1, 'day').format('dddd'));
+        console.log(dayjs().add(2, 'day').format('dddd'));
+        console.log(dayjs().add(3, 'day').format('dddd'));
+        console.log(dayjs().add(4, 'day').format('dddd'));
+        console.log(dayjs().add(5, 'day').format('dddd'));
+        console.log(dayjs().add(6, 'day').format('dddd'));
+
+        console.log(dayjs().format('D'));
+
+        console.log(dayjs().add(1, 'day').format('D'));
+        console.log(dayjs().add(2, 'day').format('D'));
+        console.log(dayjs().add(3, 'day').format('D'));
+        console.log(dayjs().add(4, 'day').format('D'));
+        console.log(dayjs().add(5, 'day').format('D'));
+        console.log(dayjs().add(6, 'day').format('D'));
+
+        console.log(dayjs().format('M'));
+
+        console.log(dayjs().format('MMMM'));
+        console.log(dayjs().format('MMM'));
+
+        let now = dayjs();
+        console.log(now.format('dddd'));
+
+        console.log(now.add(1, 'day').format('dddd'));
+        console.log(now.add(2, 'day').format('dddd'));
+        console.log(now.add(3, 'day').format('dddd'));
+        console.log(now.add(4, 'day').format('dddd'));
+        console.log(now.add(5, 'day').format('dddd'));
+        console.log(now.add(6, 'day').format('dddd'));
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
